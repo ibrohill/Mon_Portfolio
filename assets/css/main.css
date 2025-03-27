@@ -854,6 +854,13 @@ section,
     margin-top: 30px; /* Espacement entre l'image et le texte sur les petits écrans */
   }
 
+  .about .about-img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+  }
+
+
   .about .row {
     flex-direction: column; /* Empiler les éléments sur les petits écrans */
   }
