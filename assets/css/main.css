@@ -688,6 +688,7 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column; /* Ajout de cette ligne pour aligner les éléments en colonne */
 }
 
 .hero .container {
@@ -696,17 +697,17 @@ section,
 }
 
 .hero h2 {
-  margin: 0;
+  margin-bottom: 50px;
   font-size: 48px;
-  font-weight: 700;
-  text-align: left; /* Alignement du texte à gauche */
+  font-weight: 800;
+  text-align: left;
 }
 
 .hero h6 {
-  margin: 10px 0 0 0;
+  margin-top: 100px;
   font-size: 18px;
   color: var(--heading-color);
-  text-align: left; /* Alignement du texte à gauche */
+  text-align: left;
 }
 
 .hero .btn-get-started {
@@ -717,12 +718,12 @@ section,
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 1px;
-  display: inline-block;
+  display: flex;
   padding: 12px 40px;
   border-radius: 50px;
   transition: 0.5s;
-  margin-top: 30px;
-  text-align: left; /* Alignement du bouton à gauche */
+  margin: 0;
+  text-align: left;
 }
 
 .hero .btn-get-started:hover {
@@ -730,15 +731,25 @@ section,
 }
 
 .hero img {
-  max-width: 100%;
+  margin-top: 30px; /* Ajuste la distance entre l'image et le texte */
+  max-width: 50%;
   height: auto;
-  border-radius: 10px; /* Optionnel : pour arrondir les coins de l'image */
+  border-radius: 10px;
 }
+
+.image-button-container {
+  display: flex; /* Utilise block pour que l'image et le bouton soient empilés verticalement */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
 
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
     text-align: center;
+    margin-bottom: 40px;
   }
 
   .hero h6 {
@@ -750,7 +761,7 @@ section,
     font-size: 10px;
     padding: 10px 20px;
     /*position: relative;*/
-    margin-top: -80px;
+    margin-top: -100px;
   }
 
   .hero .row {
