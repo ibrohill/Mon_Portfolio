@@ -747,8 +747,10 @@ section,
   }
 
   .hero .btn-get-started {
-    font-size: 14px;
-    padding: 10px 30px;
+    font-size: 10px;
+    padding: 10px 20px;
+    /*position: relative;*/
+    margin-top: -80px;
   }
 
   .hero .row {
@@ -756,16 +758,20 @@ section,
   }
 
   .hero .col-lg-6 {
-    text-align: center; /* Centrer le texte sur les petits écrans */
+    text-align: center; /* Centrer le texte et l'image */
   }
 
   .hero img {
-    margin-top: 0px; /* Espacement entre le texte et l'image sur les petits écrans */
-    /*margin-bottom: 5px; !* Espacement supplémentaire *!*/
+    margin-top: 10px;
+    width: 100%;
+    max-width: 250px; /* Ajuste la taille pour éviter les débordements */
   }
 
-  .hero .text-content {
-    margin-top: 20px; /* Espacement entre l'image et le texte */
+  .image-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espacement entre l'image et le bouton */
   }
 }
 /*--------------------------------------------------------------
