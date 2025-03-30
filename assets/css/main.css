@@ -764,8 +764,8 @@ section,
   }
 
   .hero img {
-    margin-top: 0px; /* Espacement entre le texte et l'image sur les petits écrans */
-    /*margin-bottom: 5px; !* Espacement supplémentaire *!*/
+    margin-top: -10px; /* Espacement entre le texte et l'image sur les petits écrans */
+    margin-bottom: 15px; /* Espacement supplémentaire */
   }
 
   .hero .text-content {
