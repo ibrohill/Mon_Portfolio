@@ -88,11 +88,14 @@ a {
     animation: float 3s ease-in-out infinite;
     width: 400px;
     height: 400px;
-    object-fit: cover;
+    object-fit: contain; /* ✅ NE PAS COUPER LA TETE */
     border-radius: 50%;
+    background-color: #fff; /* optionnel pour contraste si bg transparent */
     border: 2px solid var(--primary-color);
     box-shadow: var(--shadow);
+    padding: 10px; /* optionnel si tu veux plus d'espace autour */
 }
+
 
 
 .profile-picture:hover {
