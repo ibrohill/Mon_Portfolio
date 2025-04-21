@@ -26,7 +26,7 @@ html, body {
 
 /* Héro section bien pleine hauteur, même sur petits écrans */
 .hero-section {
-    height: 100vh; /* remplace min-height */
+    min-height: 100dvh;
     width: 100vw;
     padding: 0; /* enleve le padding vertical */
     display: flex;
