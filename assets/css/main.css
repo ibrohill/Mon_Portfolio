@@ -681,15 +681,31 @@ section,
 --------------------------------------------------------------*/
 /* Styles pour la section Hero */
 .hero {
-  width: 100%;
-  min-height: calc(100vh - 82px);
-  position: relative;
-  padding: 80px 0;
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  color: white;
+  min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column; /* Ajout de cette ligne pour aligner les éléments en colonne */
+  align-items: center;
+  padding: 100px 20px;
+  text-align: center;
 }
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+.hero .btn {
+  font-size: 1.2rem;
+}
+
 
 .hero .container {
   position: relative;
@@ -1532,4 +1548,7 @@ section,
 }
 
 
+body.index-page header#header {
+  display: none;
+}
 

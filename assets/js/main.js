@@ -183,4 +183,10 @@
 
   });
 
+  AOS.init({
+    duration: 1200, // durée de l'animation
+    once: true      // ne joue l'animation qu'une seule fois
+  });
+
+
 })();
