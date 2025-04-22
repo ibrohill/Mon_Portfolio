@@ -253,63 +253,64 @@ a {
 @media screen and (max-width: 600px) {
     .hero-section {
         flex-direction: column;
-        padding: 40px 20px; /* plus d'espace autour */
+        padding: 60px 25px; /* encore plus d’espace autour */
         text-align: center;
     }
 
     .hero-content {
         max-width: 100%;
-        padding: 0 10px;
-        margin-top: 30px; /* espace entre la photo et le texte */
+        padding: 0 15px;
+        margin-top: 40px; /* plus d’espace entre photo et texte */
     }
 
     .profile-wrapper {
         display: flex;
         justify-content: center;
-        margin-bottom: 30px; /* espace sous l'image */
+        margin-bottom: 40px; /* espace sous l’image */
     }
 
     .profile-picture {
         width: 100%;
-        max-width: 260px;
+        max-width: 280px;
         height: auto;
-        padding: 6px;
+        padding: 8px;
     }
 
     .hero-title {
-        font-size: 2.8rem;
-        margin-bottom: 15px;
-        line-height: 1.3;
+        font-size: 3.2rem; /* taille du nom */
+        margin-bottom: 18px;
+        line-height: 1.4;
     }
 
     .hero-subtitle {
-        font-size: 1.3rem;
-        margin-bottom: 25px;
-        line-height: 1.8;
+        font-size: 1.6rem; /* plus lisible */
+        margin-bottom: 30px;
+        line-height: 1.9;
     }
 
     .hero-buttons {
         flex-direction: column;
-        gap: 12px;
-        margin-bottom: 30px;
+        gap: 16px;
+        margin-bottom: 35px;
     }
 
     .hero-buttons .btn {
         width: 100%;
-        font-size: 1.2rem;
-        padding: 14px 0;
+        font-size: 1.4rem;
+        padding: 16px 0;
     }
 
     .scroll-top-button {
-        width: 40px;
-        height: 40px;
-        font-size: 1.4rem;
+        width: 48px;
+        height: 48px;
+        font-size: 1.6rem;
     }
 
     .social-icon {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
     }
 }
+
 
 
 
